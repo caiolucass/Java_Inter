@@ -26,9 +26,14 @@ public class Usuario implements UserDetails {
     private Integer id;
     private String firstName;
     private String lastName;
+    @Column(unique = true)
     private String email;
     private String password;
+
+    @Column(unique = true, length = 11)
     private String cpf;
+
+    @Column(unique = true, length = 14)
     private String cnpj;
 
     @Enumerated(EnumType.STRING)

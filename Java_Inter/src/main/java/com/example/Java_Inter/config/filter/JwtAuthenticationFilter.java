@@ -1,6 +1,6 @@
 package com.example.Java_Inter.config.filter;
 
-import com.example.Java_Inter.config.service.JwtService;
+import com.example.Java_Inter.service.JwtService;
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.http.HttpServletRequest;

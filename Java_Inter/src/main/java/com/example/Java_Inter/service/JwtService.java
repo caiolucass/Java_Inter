@@ -1,4 +1,4 @@
-package com.example.Java_Inter.config.service;
+package com.example.Java_Inter.service;
 
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jwts;
@@ -18,7 +18,7 @@ import java.util.function.Function;
 @Service
 public class JwtService {
 
-    private static final String SECRET_KEY = "E27C1E948676AC8442A88C19AF741";
+    private static final String SECRET_KEY = "594F66ADE2C8A2E7CEBD649885564";
 
     public String extractUserName(String token){
         return extractClaim(token, Claims::getSubject);
