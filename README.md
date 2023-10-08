@@ -5,7 +5,7 @@ usuários. Uma remessa constitui de uma operação de conversão de
 moeda de Real para Dólar e depois de uma operação de transferência do
 valor convertido.
 
-Para rodar o projeto e os testes, basta selecionar e executar um Run na aplicação.
+Obs: Para rodar o projeto e os testes, basta selecionar e executar um Run na aplicação.
 
 ## Features
 
